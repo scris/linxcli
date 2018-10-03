@@ -1,0 +1,36 @@
+{
+  "name": "linx-cli",
+  "version": "0.2.2",
+  "description": "The Quick Configuration Tool for Linx.vue ",
+  "main": "index.js",
+  "bin": {
+    "linx": "./bin/linx.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scris/linxcli.git"
+  },
+  "keywords": [
+    "linxcli",
+    "linxvue",
+    "cli",
+    "vue-cli",
+    "vue",
+    "scris"
+  ],
+  "author": "Dominik Qiu",
+  "license": "MIT",
+  "bugs": {
+    "email": "slaaker@126.com",
+    "url": "https://github.com/scris/linxcli/issues"
+  },
+  "homepage": "https://github.com/scris/linxcli",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "ora": "^3.0.0",
+    "shelljs": "^0.8.2"
+  }
+}
